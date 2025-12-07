@@ -30,6 +30,7 @@ class ChooseModePage extends StatelessWidget {
             ),
           ),
 
+          // ignore: deprecated_member_use
           Container(color: Colors.black.withOpacity(0.15)),
 
           Padding(
@@ -70,6 +71,7 @@ class ChooseModePage extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   color: const Color(
                                     0xff30393C,
+                                    // ignore: deprecated_member_use
                                   ).withOpacity(0.5),
                                   shape: BoxShape.circle,
                                 ),
@@ -110,6 +112,7 @@ class ChooseModePage extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   color: const Color(
                                     0xff30393C,
+                                    // ignore: deprecated_member_use
                                   ).withOpacity(0.5),
                                   shape: BoxShape.circle,
                                 ),
